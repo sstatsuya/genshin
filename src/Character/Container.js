@@ -16,7 +16,7 @@ function Container() {
   }, []);
 
   const [jsx, setJsx] = useState(null);
-  const [isLoading, setLoading] = useState(true);
+  const [isLoading, setLoading] = useState(false);
 
   const generateItem = () => {
     if (characters && !jsx) {
