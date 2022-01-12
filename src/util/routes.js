@@ -21,15 +21,10 @@ const routes = [
     main: () => <CharacterInfo />,
   },
   {
-    path: "undeveloped",
+    path: "",
     exact: false,
     main: () => <Undeveloped />,
   },
-  // {
-  //   path: "",
-  //   exact: false,
-  //   main: () => <Undeveloped />,
-  // },
 ];
 
 export default routes;
