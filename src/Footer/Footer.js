@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="col footer">
         <img className="footer__logo" src={fullLogo} alt="logo" />
         <p>
-         This web is made by LTM, based on Genshin API of{" "}
+         This web is made by LMT, based on Genshin API of{" "}
           <u>genshin.dev</u>
         </p>
       </div>
