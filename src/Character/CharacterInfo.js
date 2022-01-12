@@ -27,14 +27,15 @@ const CharacterInfo = () => {
   const [activeSkill, setActiveSkill] = useState(0); // 0: normal, 1: element , 2: burst
   const [constellations, setConstellations] = useState(0);
   useEffect(() => {
-    CallAPI(Constant.CHARACTER_URL, name, "GET", null).then((res) => {
-      console.log(res.data)
+    console.log('hihi')
+    // CallAPI(Constant.CHARACTER_URL, name, "GET", null).then((res) => {
+      // console.log(res.data)
       // if (res.status >= 200 && res.status <= 299) {
       //   setLoading(false);
       //   window.scrollTo(0, 0)
       //   setCharacter(res.data);
       // }
-    });
+    // });
   }, []);
   console.log(character);
   // console.log("active: " + activeSkill);
