@@ -21,7 +21,6 @@ function App() {
               />
             );
           })}
-          <Redirect to="/undeveloped" />
         </Switch>
         <Footer />
       </div>

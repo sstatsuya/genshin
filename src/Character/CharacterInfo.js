@@ -20,35 +20,36 @@ import LoadingImg from "../Assets/Images/loading.gif";
 const CharacterInfo = () => {
   const match = useRouteMatch();
   const name = match.params.name;
+  console.log(name);
   const [character, setCharacter] = useState(null);
   const [isLoading, setLoading] = useState(true);
   const [jsx, setJsx] = useState(null);
   const [activeSkill, setActiveSkill] = useState(0); // 0: normal, 1: element , 2: burst
   const [constellations, setConstellations] = useState(0);
-  useEffect(() => {
-    CallAPI(Constant.CHARACTER_URL, name, "GET", null).then((res) => {
-      if (res.status >= 200 && res.status <= 299) {
-        setLoading(false);
-        window.scrollTo(0, 0)
-        setCharacter(res.data);
-      }
-    });
-  }, []);
-  console.log(character);
-  console.log("active: " + activeSkill);
-  const styleSkillText = (text) => {
-    let countLineDown = 0;
-    for (let i = 0; i < text.length; i++) {
-      if (text[i] === "\n") {
-        countLineDown += 1;
-        if (countLineDown % 2 === 0) {
-          text = text.slice(0, i + 1) + "\n" + text.slice(i + 1, text.length);
-          i += 1;
-        }
-      }
-    }
-    return text;
-  };
+  // useEffect(() => {
+  //   CallAPI(Constant.CHARACTER_URL, name, "GET", null).then((res) => {
+  //     if (res.status >= 200 && res.status <= 299) {
+  //       setLoading(false);
+  //       window.scrollTo(0, 0)
+  //       setCharacter(res.data);
+  //     }
+  //   });
+  // }, []);
+  // console.log(character);
+  // console.log("active: " + activeSkill);
+  // const styleSkillText = (text) => {
+  //   let countLineDown = 0;
+  //   for (let i = 0; i < text.length; i++) {
+  //     if (text[i] === "\n") {
+  //       countLineDown += 1;
+  //       if (countLineDown % 2 === 0) {
+  //         text = text.slice(0, i + 1) + "\n" + text.slice(i + 1, text.length);
+  //         i += 1;
+  //       }
+  //     }
+  //   }
+  //   return text;
+  // };
 
   return (
     <div>

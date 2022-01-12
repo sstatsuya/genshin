@@ -5,7 +5,7 @@ function Item({ name, children }) {
   return (
     <>
       <div className="col item">
-        <NavLink to={`/${GIT_PROJECT}/characters/${name}`} /*to={`${GIT_PROJECT}/map`}*/ >
+        <NavLink to={`/${GIT_PROJECT}/characters/${name}`} >
           <div className="item__container">
             {children}
             <div className="item__text">
