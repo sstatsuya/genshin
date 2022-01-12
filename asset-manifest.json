@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/genshin1/static/css/main.5cfcf7b2.chunk.css",
-    "main.js": "/genshin1/static/js/main.a6808b6b.chunk.js",
-    "main.js.map": "/genshin1/static/js/main.a6808b6b.chunk.js.map",
+    "main.css": "/genshin1/static/css/main.43c4b7c1.chunk.css",
+    "main.js": "/genshin1/static/js/main.76fb9c4e.chunk.js",
+    "main.js.map": "/genshin1/static/js/main.76fb9c4e.chunk.js.map",
     "runtime-main.js": "/genshin1/static/js/runtime-main.5dff55f2.js",
     "runtime-main.js.map": "/genshin1/static/js/runtime-main.5dff55f2.js.map",
-    "static/css/2.4659568d.chunk.css": "/genshin1/static/css/2.4659568d.chunk.css",
+    "static/css/2.0a9ec390.chunk.css": "/genshin1/static/css/2.0a9ec390.chunk.css",
     "static/js/2.e807f79c.chunk.js": "/genshin1/static/js/2.e807f79c.chunk.js",
     "static/js/2.e807f79c.chunk.js.map": "/genshin1/static/js/2.e807f79c.chunk.js.map",
     "static/js/3.c5b28c53.chunk.js": "/genshin1/static/js/3.c5b28c53.chunk.js",
     "static/js/3.c5b28c53.chunk.js.map": "/genshin1/static/js/3.c5b28c53.chunk.js.map",
     "index.html": "/genshin1/index.html",
-    "static/css/2.4659568d.chunk.css.map": "/genshin1/static/css/2.4659568d.chunk.css.map",
-    "static/css/main.5cfcf7b2.chunk.css.map": "/genshin1/static/css/main.5cfcf7b2.chunk.css.map",
+    "static/css/2.0a9ec390.chunk.css.map": "/genshin1/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.43c4b7c1.chunk.css.map": "/genshin1/static/css/main.43c4b7c1.chunk.css.map",
     "static/js/2.e807f79c.chunk.js.LICENSE.txt": "/genshin1/static/js/2.e807f79c.chunk.js.LICENSE.txt",
     "static/media/full-logo.ad7ab723.png": "/genshin1/static/media/full-logo.ad7ab723.png",
     "static/media/loading.5e01ee79.gif": "/genshin1/static/media/loading.5e01ee79.gif",
@@ -24,9 +24,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5dff55f2.js",
-    "static/css/2.4659568d.chunk.css",
+    "static/css/2.0a9ec390.chunk.css",
     "static/js/2.e807f79c.chunk.js",
-    "static/css/main.5cfcf7b2.chunk.css",
-    "static/js/main.a6808b6b.chunk.js"
+    "static/css/main.43c4b7c1.chunk.css",
+    "static/js/main.76fb9c4e.chunk.js"
   ]
 }
