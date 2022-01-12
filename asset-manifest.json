@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/genshin/static/css/main.43c4b7c1.chunk.css",
-    "main.js": "/genshin/static/js/main.9c46a39f.chunk.js",
-    "main.js.map": "/genshin/static/js/main.9c46a39f.chunk.js.map",
+    "main.js": "/genshin/static/js/main.30032cb9.chunk.js",
+    "main.js.map": "/genshin/static/js/main.30032cb9.chunk.js.map",
     "runtime-main.js": "/genshin/static/js/runtime-main.3a792895.js",
     "runtime-main.js.map": "/genshin/static/js/runtime-main.3a792895.js.map",
     "static/css/2.0a9ec390.chunk.css": "/genshin/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.e807f79c.chunk.js": "/genshin/static/js/2.e807f79c.chunk.js",
-    "static/js/2.e807f79c.chunk.js.map": "/genshin/static/js/2.e807f79c.chunk.js.map",
+    "static/js/2.f0f5c78a.chunk.js": "/genshin/static/js/2.f0f5c78a.chunk.js",
+    "static/js/2.f0f5c78a.chunk.js.map": "/genshin/static/js/2.f0f5c78a.chunk.js.map",
     "static/js/3.c5b28c53.chunk.js": "/genshin/static/js/3.c5b28c53.chunk.js",
     "static/js/3.c5b28c53.chunk.js.map": "/genshin/static/js/3.c5b28c53.chunk.js.map",
     "index.html": "/genshin/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/genshin/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.43c4b7c1.chunk.css.map": "/genshin/static/css/main.43c4b7c1.chunk.css.map",
-    "static/js/2.e807f79c.chunk.js.LICENSE.txt": "/genshin/static/js/2.e807f79c.chunk.js.LICENSE.txt",
+    "static/js/2.f0f5c78a.chunk.js.LICENSE.txt": "/genshin/static/js/2.f0f5c78a.chunk.js.LICENSE.txt",
     "static/media/full-logo.ad7ab723.png": "/genshin/static/media/full-logo.ad7ab723.png",
     "static/media/loading.5e01ee79.gif": "/genshin/static/media/loading.5e01ee79.gif",
     "static/media/logo.5e14ad59.png": "/genshin/static/media/logo.5e14ad59.png",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.3a792895.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.e807f79c.chunk.js",
+    "static/js/2.f0f5c78a.chunk.js",
     "static/css/main.43c4b7c1.chunk.css",
-    "static/js/main.9c46a39f.chunk.js"
+    "static/js/main.30032cb9.chunk.js"
   ]
 }
