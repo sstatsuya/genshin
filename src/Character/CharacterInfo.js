@@ -26,8 +26,8 @@ const CharacterInfo = () => {
   const [jsx, setJsx] = useState(null);
   const [activeSkill, setActiveSkill] = useState(0); // 0: normal, 1: element , 2: burst
   const [constellations, setConstellations] = useState(0);
-  useEffect(() => {
-    console.log('hihi')
+  // useEffect(() => {
+    // console.log('hihi')
     // CallAPI(Constant.CHARACTER_URL, name, "GET", null).then((res) => {
       // console.log(res.data)
       // if (res.status >= 200 && res.status <= 299) {
@@ -36,7 +36,7 @@ const CharacterInfo = () => {
       //   setCharacter(res.data);
       // }
     // });
-  }, []);
+  // }, []);
   console.log(character);
   // console.log("active: " + activeSkill);
   // const styleSkillText = (text) => {
