@@ -26,6 +26,9 @@ const CharacterInfo = () => {
   const [jsx, setJsx] = useState(null);
   const [activeSkill, setActiveSkill] = useState(0); // 0: normal, 1: element , 2: burst
   const [constellations, setConstellations] = useState(0);
+  useEffect(()=>{
+    console.log('haha')
+  }, [])
   // useEffect(() => {
     // console.log('hihi')
     // CallAPI(Constant.CHARACTER_URL, name, "GET", null).then((res) => {
