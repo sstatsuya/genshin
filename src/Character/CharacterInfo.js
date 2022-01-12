@@ -29,8 +29,8 @@ const CharacterInfo = () => {
   useEffect(() => {
     CallAPI(Constant.CHARACTER_URL, name, "GET", null).then((res) => {
       if (res.status >= 200 && res.status <= 299) {
-        setLoading(false);
-        window.scrollTo(0, 0)
+        // setLoading(false);
+        // window.scrollTo(0, 0)
         setCharacter(res.data);
       }
     });
