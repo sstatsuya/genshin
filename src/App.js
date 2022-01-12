@@ -1,8 +1,9 @@
 import "./App.css";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import routes from "./util/routes";
+import Undeveloped from "./Error/Undeveloped";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
               />
             );
           })}
+          <Redirect to="/undeveloped" />
         </Switch>
         <Footer />
       </div>
