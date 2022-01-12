@@ -1,0 +1,13 @@
+.undeveloped{
+    margin-top: 100px;
+    text-align: center;
+    user-select: none;
+}
+
+.undeveloped-img{
+    max-width: 600px;
+}
+
+.undeveloped-notice{
+    font-size: 24px;
+}
