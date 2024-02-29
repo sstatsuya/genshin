@@ -5,7 +5,7 @@ import * as Constant from "../Constant/Constant";
 import { CHARACTER_URL } from "../Constant/Constant";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import LoadingImg from "../Assets/Images/loading.gif";
-import '../App.css'
+import "../App.css";
 
 function Container() {
   const [characters, setCharacters] = useState(null);
@@ -16,7 +16,7 @@ function Container() {
   }, []);
 
   const [jsx, setJsx] = useState(null);
-  const [isLoading, setLoading] = useState(true);
+  const [isLoading, setLoading] = useState(false);
 
   const generateItem = () => {
     if (characters && !jsx) {
@@ -57,18 +57,12 @@ function Container() {
 
   return (
     <div className="row" style={{ width: "90%", margin: "0 auto" }}>
-      <div className={`col ${isLoading?'':'hidden'}`}>
-          <img className='loading' src={LoadingImg} alt="loading"/>
-        </div>
-        {/* Phải render jsx ra giao diện thì nó mới dùng được onload */}
-        {
-          <div className={`${isLoading?'hidden':''}`}>
-            {
-              jsx
-            }
-          </div>
-        }
-     </div>
+      <div className={`col ${isLoading ? "" : "hidden"}`}>
+        <img className="loading" src={LoadingImg} alt="loading" />
+      </div>
+      {/* Phải render jsx ra giao diện thì nó mới dùng được onload */}
+      {<div className={`${isLoading ? "hidden" : ""}`}>{jsx}</div>}
+    </div>
   );
 }
 
